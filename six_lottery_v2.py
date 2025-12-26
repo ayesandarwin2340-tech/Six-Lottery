@@ -199,7 +199,7 @@ def start_monitoring():
         except Exception as e:
             print(f"Loop Error: {e}")
             
-        time.sleep(15) # Server Load သက်သာအောင် ၁၅ စက္ကန့်ထားပါ
+        time.sleep(5) # Server Load သက်သာအောင် ၁၅ စက္ကန့်ထားပါ
 
 if __name__ == "__main__":
     # Flask ကို Thread နဲ့ Run မယ်
